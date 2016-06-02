@@ -1,0 +1,249 @@
+@charset "utf-8";
+
+#oldSite{
+	background:#F93;
+	color:black;
+}
+#oldSite a{
+	color:#666;
+}
+
+/*Basic structural formatting*/
+body{
+	background:#939598 url(../images/bgGradient.png) 50% 0 repeat-y;
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#container{
+	width:900px;
+	height:auto;
+	margin: 0 auto;
+}
+
+#header{
+	width:900px;
+	height:150px;
+	font:36px bold Verdana, Geneva, sans-serif;
+	color:#df8b4a;
+	padding-bottom:15px;
+}
+
+#nav{
+	width:150px;
+	height:auto;
+	float:left;
+	border-right:1px solid white;
+}
+
+#article{
+	width:723px;
+	height:auto;
+	float:left;
+	padding:0px 10px 20px 15px;
+	font:Verdana, Geneva, sans-serif;
+}
+
+#spacer{
+	width:900px;
+	clear:both;
+	height:25px;
+}
+
+#aside{
+	width:500px;
+	height:184px;
+	clear:both;
+	margin:auto;
+	text-align:center;
+	border:#FFF thin solid;
+}
+
+#footer{
+	width:900px;
+	height:auto;
+	clar:both;
+	text-align:center;
+	padding-top:15px;
+}
+
+.boardDiv{
+	width: 700px;
+	height: auto;
+}
+
+/*Element Formatting*/
+a:link  {color:#FC9;}
+a:hover   {color:#FC6;}
+a:active, a:visited  {color:#F90;}
+
+.center{
+	text-align:center;
+}
+
+h1{
+	text-align:center;
+	margin: 3px 3px 15px 3px;
+	text-shadow: 0px 1px 1px #000;
+}
+
+h2{
+	font-size: 140%;
+	font-weight: 400;
+	margin:0px;
+	color:#df8b4a;
+}
+
+h2.accordian{
+	color:#c77405;
+	font-weight:700;
+}
+
+.headerImg{
+	float:left;
+}
+
+.headerGImg{
+	float:right;
+	padding:15px 10px 0px 0px;
+	font-size:20px;
+	color:#999;
+	text-align:center;
+}
+
+.headerTxt{
+	float:right;
+	padding:0px;
+}
+
+.iFrame{
+	width:496px;
+	overflow:hidden;
+	background:#CCC;
+}
+
+.image {
+	float: left;
+	padding: 10px;
+	border: solid 1px white;
+	margin: 0 30px 30px 0;
+}
+.image:hover {
+	border-color: red;
+	background-color: rgb(204,204,204);	
+}
+
+.imgLft{
+	float:left;
+	padding:0px;
+	margin:0px;
+}
+.noPadding{
+	margin:0px;
+	padding:0px;
+}
+
+ol{
+	list-style-position: inside;
+	width: 650px;
+}
+
+.pBackground{
+	background:#e37017;
+	margin:auto;
+	padding:5px;
+	font-size:larger;
+}
+
+.pImages{
+	float:right;
+	padding: 20px;
+}
+
+.subtext {
+	color:#999;
+	font-size:small;
+	font-weight:800;
+	margin:0px;
+}
+
+/*CSS MENU*/
+.menu{
+	margin:0; 
+	padding:0; 
+	width:150px; 
+	list-style:none;
+	background:rgb(255,255,255);
+}
+
+.menu li{
+	padding:0;
+	margin:0 0 1px 0; 
+	height:40px; 
+	display:block; 
+}
+
+.menu li a{
+	text-align:center;
+	height:40px; 
+	padding:0px 25px; 
+	font:20px Arial, Helvetica, sans-serif; 
+	color:rgb(255,255,255); 
+	display:block; background:url(../images/verMenuImages.png) 0px 0px no-repeat; text-decoration:none;
+}
+
+.menu li a:hover{
+	background:url(../images/verMenuImages.png) 0px -40px no-repeat; 		
+	color:rgb(255,255,255);
+}
+
+.menu li a.active, .menu li a.active:hover{
+	background:url(../images/verMenuImages.png) 0px -80px no-repeat; 
+	color:rgb(255,255,255);
+}
+
+.menu li a span{
+	line-height:40px;
+	}
+
+/*FancyBox for Board Members page*/
+.fancyBoxDividers{
+	width:355px;
+	height:120px;
+	float:left;
+	text-align:center;
+	border:thin solid #333;
+}
+
+.fancyBoxDividers h2{
+	padding: 5px 0px 0 0;
+	clear:both;
+}
+
+a.fancybox img { 
+	border:1px solid #000; 
+	margin:10px 0px 0 80px; 
+	float:left;
+}
+
+/*This class for Officers pages if pics are used and one seat doesn't have a pic to display
+
+.noPic{
+	margin-top:125px;
+	clear:both;
+}*/
+
+
+
+/*JS ERROR MSGS*/
+/*#myForm label.error {
+	font-size: 0.8em;
+	color: #F00;
+  font-weight: bold;
+  display:inline;
+  margin-left: 0px;
+}
+#myForm  input.error, #myForm select.error  {
+	background: #FFA9B8;
+  border: 1px solid red;
+}	*/

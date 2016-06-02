@@ -1,0 +1,11 @@
+Got both navs kinda working. Time to start adding in all other pages. Each page will have to be brought in as a template. 
+
+Start working on pages like News that will updated via posts. News is already started
+
+Work on form page to see if it works in wordpress. 
+
+Work on iFrame from adoption page to get it to be responsive. 
+
+Need to really work on Posts/Pages. I have News Page working kind of... but I want it to pull posts... not just what's typed on the page. SEE LINK BELOW
+
+https://codex.wordpress.org/Creating_a_Static_Front_Page

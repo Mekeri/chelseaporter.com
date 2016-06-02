@@ -1,0 +1,146 @@
+/*
+Theme Name: Demo Theme
+Theme URL: http://www.chelseaporter.com
+Description: My demo bootstrap
+Version: 1
+Auther: Chelsea Porter
+Author URL: http://www.chelseaporter.com
+
+*/
+/* CSS Document */
+/*@import url ('css/bootstrap.min.css');
+
+@import url('flexslider/flexslider.css');*/
+
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+
+.border{
+	border:solid thin white;
+}
+.center-block{
+	text-align: center;
+}
+
+.darkGryBG{
+	background:#1C1C1C;
+	color:#444444;
+	border-top:#1E1E1E thick solid;
+	padding: 10px 0 20px 0;
+}
+
+#footer, .greenBG:after{
+	height: 390px;
+}
+
+.form-control{
+	width:100%;
+}
+
+.form-group{
+	margin-bottom:0px;
+}
+
+.greenBG{
+	background:#B0DF95;
+	padding: 10px 0 20px 0;
+	font-size:16px;
+	/*height:100%*/
+	min-height:70%;
+	margin-bottom: -390px;
+}
+
+.greenBG:after {
+  content: "";
+  display: block;
+}
+
+.GryBG{
+	background:#444343;
+	color:#A4A4A4;
+	border-top:#1E1E1E thick solid;
+	padding: 10px 0 20px 0;
+}
+
+h3{
+	color:white;
+}
+
+.has-success{ color: #3c763d !important; }
+
+.headerLogo{
+	width: 255px;
+	height: 168px;
+}
+
+.jumbotron{
+	margin: 0;
+	padding: 0;
+	background:url(images/bg.jpg);
+	background-size:cover;
+}
+
+.navbar-inverse{
+	border-bottom:thick solid #9EC8EB;
+	
+}
+
+.panel-heading{
+	background:#CCC;
+	border-bottom:#333 thin solid;
+	text-align:center;
+}
+
+.titleBG{
+	background:url(images/bg.jpg);
+	padding: 10px 0 20px 0;
+	color:#333;
+	border:solid thin white;
+}
+
+
+
+
+/*FlexSlider*/
+
+.flex-control-nav {
+  bottom: 20px;
+  position: absolute;
+  left: 20px;
+  text-align: center;
+  width: auto;
+  z-index: 1000;
+}
+.flexslider .slides img {
+	width: auto; 
+	height: auto; 
+	max-width: 100%;
+	max-height: 400px;
+	margin: 0 auto; 
+	vertical-align: middle;
+}
+.flexslider{
+	background: transparent;
+	padding:10px;
+	margin:20px 0 20px 0;
+}
+
+
+
+.valid {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  text-indent: -9999px;
+}
+.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
